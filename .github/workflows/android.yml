@@ -19,6 +19,11 @@ jobs:
           flutter-version: 3.19.0
           channel: stable
 
+      - name: Upgrade Gradle Wrapper
+        run: |
+          cd android
+          ./gradlew wrapper --gradle-version 8.0
+
       - run: flutter pub get
       - run: flutter build apk --release
 
