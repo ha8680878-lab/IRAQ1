@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>عالم 4K | المتجر الرسمي</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Cairo',sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.85)),
+url('https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=1600&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero{
+max-width:900px;
+}
+
+.hero h1{
+font-size:65px;
+color:#ffd700;
+margin-bottom:20px;
+text-shadow:0 0 25px #ffd700;
+}
+
+.hero p{
+font-size:24px;
+line-height:2;
+color:#ddd;
+}
+
+.hero-btn{
+display:inline-block;
+margin-top:35px;
+padding:15px 40px;
+background:#ffd700;
+color:#000;
+font-size:20px;
+font-weight:800;
+border-radius:15px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.hero-btn:hover{
+transform:scale(1.05);
+background:white;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+margin:70px 0 40px;
+color:#ffd700;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+padding:30px;
+max-width:1400px;
+margin:auto;
+}
+
+.card{
+background:#111;
+border:1px solid #222;
+border-radius:25px;
+padding:30px;
+transition:0.4s;
+position:relative;
+overflow:hidden;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(255,215,0,0.3);
+}
+
+.card h2{
+font-size:32px;
+color:#ffd700;
+margin-bottom:20px;
+}
+
+.price{
+background:#1a1a1a;
+padding:15px;
+border-radius:15px;
+margin-bottom:15px;
+font-size:20px;
+display:flex;
+justify-content:space-between;
+}
+
+.price span{
+color:#ffd700;
+font-weight:bold;
+}
+
+.players{
+max-width:1200px;
+margin:auto;
+padding:30px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.player-card{
+background:#111;
+padding:25px;
+border-radius:20px;
+text-align:center;
+border:1px solid #222;
+transition:0.3s;
+}
+
+.player-card:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(255,215,0,0.3);
+}
+
+.player-card h3{
+font-size:28px;
+color:#ffd700;
+}
+
+.contact{
+margin:80px auto;
+max-width:900px;
+background:#111;
+padding:40px;
+border-radius:30px;
+text-align:center;
+border:1px solid #222;
+}
+
+.contact h2{
+font-size:40px;
+color:#ffd700;
+margin-bottom:20px;
+}
+
+.contact a{
+display:inline-block;
+margin-top:20px;
+padding:15px 35px;
+background:#25D366;
+color:white;
+font-size:22px;
+font-weight:bold;
+border-radius:15px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.contact a:hover{
+transform:scale(1.05);
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#0a0a0a;
+color:#777;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.section-title{
+font-size:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>✨ متجر عالم 4K ✨</h1>
+
+<p>
+نحن هنا لنأخذكم في رحلة بصرية فريدة تفوق الخيال.<br>
+جودة UHD فائقة، تفاصيل واقعية، وألوان تنبض بالحياة.
+</p>
+
+<a href="#subscriptions" class="hero-btn">
+استعرض الاشتراكات
+</a>
+
+</div>
+
+</header>
+
+<section id="subscriptions">
+
+<h2 class="section-title">
+📺 الاشتراكات السنوية
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h2>8K VIP</h2>
+
+<div class="price">
+Live TV
+<span>50,000 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>140,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>35,000 IQD</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>4K VIP</h2>
+
+<div class="price">
+Live TV
+<span>13,000 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>50,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>20,000 IQD</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>4K FAMILY</h2>
+
+<div class="price">
+Live TV
+<span>9,000 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>57,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>10,000 IQD</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>4K FOREVER</h2>
+
+<div class="price">
+Live TV
+<span>7,000 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>40,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>8,000 IQD</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>4K MAX</h2>
+
+<div class="price">
+Live TV
+<span>13,000 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>31,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>12,000 IQD</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>4K DANA</h2>
+
+<div class="price">
+Live TV
+<span>17,000 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>63,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>8,000 IQD</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>4K OTV</h2>
+
+<div class="price">
+Live TV
+<span>28,000 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>18,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>9,000 IQD</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>4K NOVA</h2>
+
+<div class="price">
+Live TV
+<span>1,600 IQD</span>
+</div>
+
+<div class="price">
+Movies
+<span>13,000 IQD</span>
+</div>
+
+<div class="price">
+Series
+<span>5,000 IQD</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+🖥️ تفعيل مشغلات الشاشات
+</h2>
+
+<div class="players">
+
+<div class="player-card">
+<h3>IBO PRO PLAYER</h3>
+</div>
+
+<div class="player-card">
+<h3>IBO PLAYER</h3>
+</div>
+
+<div class="player-card">
+<h3>BOB PLAYER</h3>
+</div>
+
+<div class="player-card">
+<h3>VU PLAYER PRO</h3>
+</div>
+
+</div>
+
+</section>
+
+<div class="contact">
+
+<h2>📞 التواصل والاشتراك</h2>
+
+<p style="font-size:28px; margin-top:20px;">
+07705166529
+</p>
+
+<a href="https://wa.me/9647705166529">
+تواصل عبر واتساب
+</a>
+
+</div>
+
+<footer>
+
+جميع الحقوق محفوظة © عالم 4K 2026
+
+</footer>
+
+</body>
+</html>
